@@ -1,0 +1,8 @@
+h1 + p { background-color: #222; color: #fff;}
+/* 인접 형제 선택자 (adjavent selector) 
+똑같은 이름의 p태그가 있어도 첫번째 하나만 선택이 되고
+h1과 p사이에 다른 태그가 끼면 선택이 안된다. */
+
+h1 ~ p { color: blue; } /* 형제 선택자 (sibling selector)*/
+
+
