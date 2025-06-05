@@ -1,0 +1,6 @@
+body { margin: 0;}
+span { background-color: slateblue; }
+.container { background-color: #fff; }
+.container div { background-color: coral; }
+
+span, .container div { margin: 20px; }
