@@ -9,15 +9,18 @@
         a:link { color:  black; text-decoration: none;}
         /* 한번 방문했던 링크, 하지만 보통은 색깔을 맞춤*/
         a:visited { color: gray;}
-        /* 클릭하고 있는 동안의 색상 */
+        /* 클릭하고 있는 동안의 색상 (클릭하는 동안) */
         a:active { color: blue;}
-        /* 마우스가 링크 위에 있는 동안의 색상 */
+        /* 마우스가 링크 위에 있는 동안의 색상 (마우스가 올라가면) */
         a:hover { background-color: aqua;}
+        input[type="radio"]:checked {accent-color: red;}
     </style>
 </head>
 <body>
     <h1>navi.html</h1>
     <a href="https://www.airbnb.com" target="_blank">에어비엔비</a>
-    <label><input type="radio"</label>
+    <label><input type="radio" name="typ" value="1" checked>1</label>
+    <label><input type="radio" name="typ" value="2">2</label>
+    
 </body>
 </html>
